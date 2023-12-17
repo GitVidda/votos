@@ -1,0 +1,271 @@
+.card-cont {
+	overflow: hidden;
+	background: #fff;
+	display: flex;
+	/* Agregar la propiedad display flex */
+	flex-direction: column;
+	/* Aplicar un diseño en columna */
+	justify-content: center;
+	/* Centrar el contenido verticalmente */
+	align-items: center;
+	/* Centrar el contenido horizontalmente */
+}
+
+.card {
+	width: 200px;
+	height: 250px;
+	margin: 10px;
+	border-radius: 8px;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+	transition: all 400ms ease-out;
+	cursor: pointer;
+}
+
+.card:hover {
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+	transform: translateY(-2%);
+}
+
+
+
+.card img {
+	width: 100%;
+	height: 250px;
+	/* Aumentar la altura de la imagen de la tarjeta */
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.app {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.header-container {
+	flex: 0 0 auto;
+}
+
+.header-image {
+	width: 100%;
+	object-fit: cover;
+}
+
+.content {
+	padding: 0px;
+	flex: 1 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.custom-btn {
+	font-size: 40px !important;
+	padding: 25px 80px !important;
+	margin-top: 40px !important;
+	margin-bottom: 30px !important;
+}
+
+.footer-container {
+	flex: 0 0 auto;
+
+	position: sticky;
+}
+
+.footer-image {
+	width: 100%;
+	max-height: 163px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+}
+
+.footer-img {
+	width: 100%;
+	object-fit: cover;
+	max-height: 163px;
+}
+
+.image-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5px;
+}
+
+.image-item {
+	width: 80px;
+	/* Ajusta el ancho de cada imagen */
+	height: 80px;
+	/* Ajusta la altura de cada imagen */
+	margin: 0 20px;
+	/* Ajusta el margen horizontal entre las imágenes */
+}
+
+.print-button {
+	background-color: #ffffff;
+	border: none;
+	padding: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+  }
+  
+  .print-icon {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+  }
+  
+  @media print {
+	.print-button {
+	  display: none !important;
+	}
+  }
+
+  .img-cne{
+	width: 300px;
+	height: auto;
+  }
+
+  .section-login{
+	margin: 0 150px;
+	padding: 0px;
+	padding-top: 10px;
+  }
+
+
+  /*ADMIN*/
+
+  .contenedor-U{
+	margin: 0 100px 0 100px ;
+  }
+
+  .contenedor-U .card{
+	width: 400px;
+  }
+
+  .contenedor-U .form-floating{
+	padding-bottom: 10px;
+  }
+
+  .contenedor-U td button {
+	margin-right: 15px;
+  }
+
+.contenedor-U .centrar-form{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.contenedor-U .centrar{
+	margin-top: 30px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.contenedor-btn {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.contenedor-btn .custom-btn{
+		font-size: 25px !important;
+		padding: 12px !important;
+		margin-top: 15px !important;
+		margin-bottom: 15px !important;
+		width: 350px;
+	
+}
+ 
+
+
+
+.chart-container {
+	width: 100%;
+	max-width: 1200px; /* O ajusta el valor según tus necesidades */
+	height: 680px; /* O ajusta el valor según tus necesidades */
+	margin: 0 auto;
+	position: relative;
+  }
+  
+  .chart-wrapper {
+	width: 100%;
+	height: 100%;
+  }
+  
+  @media (max-width: 768px) {
+	/* Media query para ajustar el gráfico en dispositivos más pequeños */
+	.chart-container {
+	  max-width: 100%; /* Ajusta el ancho máximo */
+	  height: auto; /* Ajusta la altura automáticamente */
+	}
+  }
+
+  .image-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5px;
+  }
+  
+  .image-item {
+	max-width: 80px; /* Ajusta el ancho máximo de la imagen */
+	height: auto; /* Ajusta la altura automáticamente según el ancho */
+	margin: 0 20px;
+  }
+  
+  @media (max-width: 768px) {
+	/* Media query para ajustar las imágenes en dispositivos más pequeños */
+	.image-item {
+	  max-width: 60px; /* Ajusta el ancho máximo de la imagen */
+	  margin: 0 10px;
+	}
+  }
+
+.modal-container {
+	position: fixed;
+	z-index: 3;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.tooltip {
+	visibility: visible;
+	width: 120px;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	border-radius: 4px;
+	padding: 4px;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%; /* Posición por encima del elemento */
+	left: 50%;
+	transform: translateX(-50%);
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "ci": "1004524615",
+        "user": "Mario Vera",
+        "voted": false,
+        "permission": "admin"
+    },
+    {
+        "ci": "1751585249",
+        "user": "Esteban Flores",
+        "voted": false,
+        "permission": "voter"
+    },
+    {
+        "ci": "1720623923",
+        "user": "Meredith Riofrio",
+        "voted": false,
+        "permission": "voter"
+    },
+    {
+        "ci": "1760503902",
+        "user": "Samuel García",
+        "voted": false,
+        "permission": "voter"
+    },
+    {
+        "ci": "1750844951",
+        "user": "Deymian Benavides",
+        "voted": false,
+        "permission": "voter"
+    },
+    {
+        "ci": "1722708938",
+        "user": "Fernando Paguay",
+        "voted": false,
+        "permission": "voter"
+    },
+    {
+        "ci": "1751122092",
+        "user": "Johanna Gamez",
+        "voted": false,
+        "permission": "voter"
+    }
+]
