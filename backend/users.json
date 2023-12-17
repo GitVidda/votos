@@ -1,43 +1,25 @@
 [
     {
-        "ci": "1004524615",
-        "user": "Mario Vera",
+        "ci": "1234567890",
+        "user": "xxxx xxxx",
         "voted": false,
         "permission": "admin"
     },
     {
-        "ci": "1751585249",
-        "user": "Esteban Flores",
+        "ci": "1234567890",
+        "user": "xx xx",
         "voted": false,
         "permission": "voter"
     },
     {
-        "ci": "1720623923",
-        "user": "Meredith Riofrio",
+        "ci": "9876543013",
+        "user": "x x",
         "voted": false,
         "permission": "voter"
     },
     {
-        "ci": "1760503902",
-        "user": "Samuel García",
-        "voted": false,
-        "permission": "voter"
-    },
-    {
-        "ci": "1750844951",
-        "user": "Deymian Benavides",
-        "voted": false,
-        "permission": "voter"
-    },
-    {
-        "ci": "1722708938",
-        "user": "Fernando Paguay",
-        "voted": false,
-        "permission": "voter"
-    },
-    {
-        "ci": "1751122092",
-        "user": "Johanna Gamez",
+        "ci": "1234321234",
+        "user": "xxx xxx",
         "voted": false,
         "permission": "voter"
     }
